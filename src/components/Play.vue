@@ -5,6 +5,7 @@
 <script>
 
 export default {
-    name: 'Play'
+    name: 'Play',
+    emits: ['moving']
 }
 </script>

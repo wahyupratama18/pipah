@@ -1,8 +1,8 @@
 <template>
   <div>
-    <Home v-if="menus == 1" />
-    <Play v-if="menus == 2" />
-    <Highscore v-if="menus == 3" />
+    <Home v-if="menus == 1" @moving="moved" />
+    <Play v-if="menus == 2" @moving="moved" />
+    <Highscore v-if="menus == 3" @moving="moved" />
   </div>
 </template>
 
@@ -21,6 +21,11 @@ export default {
   data(){
     return {
       menus: 1
+    }
+  },
+  methods: {
+    moved(menus){
+      this.menus = menus
     }
   }
 }

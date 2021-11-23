@@ -5,6 +5,7 @@
 <script>
 
 export default {
-    name: 'Highscore'
+    name: 'Highscore',
+    emits: ['moving']
 }
 </script>
