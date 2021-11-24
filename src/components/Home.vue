@@ -12,7 +12,7 @@
             </div>
 
             <div class="flex justify-center font-bold mt-6">
-                <div class="text-green-500 text-3xl text-center w-72">
+                <div class="text-green-500 text-4xl text-center w-72">
                     <h1 v-text="'PIPAH'" />
                     <hr>
                     <h3 v-text="'Pilah Sampah'" />
@@ -21,7 +21,7 @@
             </div>
 
             <div class="flex justify-center mt-16">
-                <button @click="play" class="button font-bold px-6" v-text="'M U L A I'"/>
+                <button @click="play" class="button font-bold px-6 text-xl" v-text="'M U L A I'"/>
             </div>
         </div>
     </div>
