@@ -3,9 +3,9 @@
         <div class="grid grid-cols-1">
             <!-- Buttons -->
             <div class="flex justify-end mt-6 mr-6">
-                <button class="button h-12 w-12 rounded-full mx-4">
+                <!-- <button class="button h-12 w-12 rounded-full mx-4">
                     <i class="mdi mdi-music mdi-36px" />
-                </button>
+                </button> -->
                 <button @click="viewScore" class="button h-12 w-12 rounded-full mx-4">
                     <i class="mdi mdi-scoreboard mdi-36px" />
                 </button>
