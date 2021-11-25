@@ -17,7 +17,7 @@
 
 <script>
 export default {
-    name: 'Play',
+    name: 'Pause',
     emits: ['moving']
 }
 </script>
