@@ -1,5 +1,5 @@
 <template>
-    <div class="min-h-screen bg-white bg-no-repeat bg-cover" :style="{'background-image': `url(${require('../assets/home.png')})`}">
+    <div class="min-h-screen bg-white bg-no-repeat bg-cover" :style="{'background-image': `url(${require('../assets/backgrounds/home.png')})`}">
         <div class="grid grid-cols-1">
             <!-- Buttons -->
             <div class="flex justify-end mt-6 mr-6">
@@ -30,7 +30,7 @@
 <script>
 
 export default {
-    name: 'Home',
+    name: 'WelcomeHome',
     emits: ['moving'],
     methods: {
         play(){

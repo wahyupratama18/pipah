@@ -1,5 +1,5 @@
 <template>
-    <div class="min-h-screen bg-white bg-no-repeat bg-cover" :style="{'background-image': `url(${require('../assets/home.png')})`}">
+    <div class="min-h-screen bg-white bg-no-repeat bg-cover" :style="{'background-image': `url(${require('../assets/backgrounds/home.png')})`}">
         <div class="flex ml-6">
             <button @click="home" class="button h-12 w-12 rounded-full mx-4 mt-6">
                 <i class="mdi mdi-chevron-left mdi-36px" />
@@ -21,7 +21,7 @@
 <script>
 
 export default {
-    name: 'Highscore',
+    name: 'Highscores',
     emits: ['moving'],
     data(){
         return {

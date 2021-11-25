@@ -3,7 +3,19 @@
 @tailwind utilities;
 
 @layer components {
+    .base {
+        @apply flex items-center justify-center p-4hover:bg-yellow-700 text-white rounded-3xl shadow-md;
+    }
     .button {
         @apply flex items-center justify-center p-4 bg-yellow-500 hover:bg-yellow-700 text-white rounded-3xl shadow-md;
+    }
+    .invert-button {
+        @apply flex items-center justify-center p-4 border-yellow-500 bg-white hover:bg-yellow-700 text-yellow-500 rounded-3xl shadow-md;
+    }
+    .moveable {
+        @apply h-24
+    }
+    .input-style {
+        @apply focus:ring-yellow-500 focus:border-yellow-500 flex-1 block w-full sm:text-sm border-gray-300 p-3 rounded-xl bg-yellow-100
     }
 }
