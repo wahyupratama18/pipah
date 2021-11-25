@@ -26,9 +26,9 @@ export default {
     data(){
         return {
             scores: [
-                /* {name: 'Testing', score: 100},
+                {name: 'Testing', score: 100},
                 {name: 'Testing', score: 150},
-                {name: 'Testing', score: 75}, */
+                {name: 'Testing', score: 75}, 
             ]
         }
     },
