@@ -38,7 +38,7 @@
 
                 <div class="flex my-6 justify-between">
                     <button class="invert-button px-6 py-2" @click="closeModal">Tidak</button>
-                    <button class="button px-6 py-2" @click="showScoreModal">Ya</button>
+                    <button class="button px-6 py-2" @click="showScoredModal">Ya</button>
                 </div>
             </div>
         </Modal>
@@ -103,6 +103,7 @@ export default {
             this.pause.modal = this.scored.modal = false
         },
         showScoredModal(){
+            this.pause.modal = false
             this.playable = false
             this.scored.modal = true
         },
