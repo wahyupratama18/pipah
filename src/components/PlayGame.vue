@@ -16,19 +16,19 @@
         </div>
 
         <!-- Dumpster -->
-        <div class="flex mt-64 ml-12">
-            <img src="../assets/icons/anorganik.png" alt="Tempat Sampah" class="h-48" @drop="onDrop($event, transfer.anorganik)" @dragover.prevent @dragenter.prevent>
-            <img src="../assets/icons/organik.png" alt="Tempat Sampah" class="h-48" @drop="onDrop($event, transfer.organik)" @dragover.prevent @dragenter.prevent>
+        <div class="flex">
+            <img src="../assets/icons/anorganik.png" alt="Tempat Sampah" class="anorganik h-48" @drop="onDrop($event, transfer.anorganik)" @dragover.prevent @dragenter.prevent>
+            <img src="../assets/icons/organik.png" alt="Tempat Sampah" class="organik h-48" @drop="onDrop($event, transfer.organik)" @dragover.prevent @dragenter.prevent>
         </div>
 
         <!-- Game -->
         <div>
-            <img src="../assets/icons/apel.png" alt="Sampah" class="h-24 bottom-10 left-5 fixed" draggable @dragstart="dragging($event, transfer.organik)">
-            <img src="../assets/icons/kertas.png" alt="Sampah" class="h-24 bottom-8 left-40 fixed" draggable @dragstart="dragging($event, transfer.anorganik)">
-            <img src="../assets/icons/pisang.png" alt="Sampah" class="h-24 bottom-20 right-5 fixed" draggable @dragstart="dragging($event, transfer.organik)">
-            <img src="../assets/icons/plastik.png" alt="Sampah" class="h-24 bottom-30 right-10 fixed" draggable @dragstart="dragging($event, transfer.anorganik)">
-            <img src="../assets/icons/soda_merah.png" alt="Sampah" class="h-24 bottom-10 right-5 fixed" draggable @dragstart="dragging($event, transfer.anorganik)">
-            <img src="../assets/icons/soda_hijau.png" alt="Sampah" class="h-24 bottom-30 left-40 fixed" draggable @dragstart="dragging($event, transfer.anorganik)">
+            <img src="../assets/icons/apel.png" alt="Sampah" class="apel h-24" draggable @dragstart="dragging($event, transfer.organik)">
+            <img src="../assets/icons/kertas.png" alt="Sampah" class="kertas h-24" draggable @dragstart="dragging($event, transfer.anorganik)">
+            <img src="../assets/icons/pisang.png" alt="Sampah" class="pisang h-24" draggable @dragstart="dragging($event, transfer.organik)">
+            <img src="../assets/icons/plastik.png" alt="Sampah" class="plastik h-24" draggable @dragstart="dragging($event, transfer.anorganik)">
+            <img src="../assets/icons/soda_merah.png" alt="Sampah" class="sd_merah h-24" draggable @dragstart="dragging($event, transfer.anorganik)">
+            <img src="../assets/icons/soda_hijau.png" alt="Sampah" class="sd_hijau h-24" draggable @dragstart="dragging($event, transfer.anorganik)">
         </div>
 
         <!-- Modals -->
@@ -55,6 +55,47 @@
         </Modal>
     </div>
 </template>
+
+<style scoped>
+    .anorganik {
+        margin-top: 300px;
+        margin-left: 100px;
+    }
+    .organik {
+        margin-top: 300px;
+        margin-left: 10px
+    }
+    .sd_hijau {
+        position: fixed;
+        margin-left : 900px;
+        bottom: 150px;
+    }
+    .sd_merah {
+        position: fixed;
+        margin-left: 550px;
+        bottom: 70px;
+    }
+    .plastik {
+        position: fixed;
+        margin-left: 1120px;
+        bottom: 120px;
+    }
+    .pisang {
+        position: fixed;
+        margin-left: 600px;
+        bottom: 30px;
+    }
+    .kertas {
+        position: fixed;
+        margin-left: 280px;
+        bottom: 30px;
+    }
+    .apel {
+        position: fixed;
+        margin-left: 50px;
+        bottom: 20px;
+    }
+</style>
 
 <script>
 import Modal from './Modal.vue'
