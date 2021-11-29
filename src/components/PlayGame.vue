@@ -58,17 +58,17 @@
 
 <style scoped>
     .anorganik {
-        margin-top: 300px;
+        margin-top: 370px;
         margin-left: 100px;
     }
     .organik {
-        margin-top: 300px;
+        margin-top: 370px;
         margin-left: 10px
     }
     .sd_hijau {
         position: fixed;
-        margin-left : 900px;
-        bottom: 150px;
+        margin-left : 980px;
+        bottom: 180px;
     }
     .sd_merah {
         position: fixed;
@@ -77,8 +77,8 @@
     }
     .plastik {
         position: fixed;
-        margin-left: 1120px;
-        bottom: 120px;
+        margin-left: 1200px;
+        bottom: 145px;
     }
     .pisang {
         position: fixed;
