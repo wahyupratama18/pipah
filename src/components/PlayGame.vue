@@ -58,42 +58,42 @@
 
 <style scoped>
     .anorganik {
-        margin-top: 370px;
-        margin-left: 100px;
+        margin-top: 51vh;
+        margin-left: 15vh;
     }
     .organik {
-        margin-top: 370px;
-        margin-left: 10px
+        margin-top: 51vh;
+        margin-left: 3vh;
     }
     .sd_hijau {
         position: fixed;
-        margin-left : 980px;
-        bottom: 180px;
+        margin-left : 140vh;
+        bottom: 25vh;
     }
     .sd_merah {
         position: fixed;
-        margin-left: 550px;
-        bottom: 70px;
+        margin-left: 70vh;
+        bottom: 10vh;
     }
     .plastik {
         position: fixed;
-        margin-left: 1200px;
-        bottom: 145px;
+        margin-left: 170vh;
+        bottom: 22vh;
     }
     .pisang {
         position: fixed;
-        margin-left: 600px;
-        bottom: 30px;
+        margin-left: 75vh;
+        bottom: 3vh;
     }
     .kertas {
         position: fixed;
-        margin-left: 280px;
-        bottom: 30px;
+        margin-left: 30vh;
+        bottom: 1vh;
     }
     .apel {
         position: fixed;
-        margin-left: 50px;
-        bottom: 20px;
+        margin-left: 10vh;
+        bottom: 2vh;
     }
 </style>
 
