@@ -28,7 +28,7 @@
             <img src="../assets/icons/pisang.png" alt="Sampah" class="h-24 bottom-20 right-5 fixed" draggable @dragstart="dragging($event, transfer.organik)">
             <img src="../assets/icons/plastik.png" alt="Sampah" class="h-24 bottom-30 right-10 fixed" draggable @dragstart="dragging($event, transfer.anorganik)">
             <img src="../assets/icons/soda_merah.png" alt="Sampah" class="h-24 bottom-10 right-5 fixed" draggable @dragstart="dragging($event, transfer.anorganik)">
-            <img src="../assets/icons/soda_hijau.png" alt="Sampah" class="h-24 bottom-30 right-1 fixed" draggable @dragstart="dragging($event, transfer.anorganik)">
+            <img src="../assets/icons/soda_hijau.png" alt="Sampah" class="h-24 bottom-30 left-40 fixed" draggable @dragstart="dragging($event, transfer.anorganik)">
         </div>
 
         <!-- Modals -->
