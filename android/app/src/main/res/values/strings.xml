@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">pipah</string>
+    <string name="title_activity_main">pipah</string>
+    <string name="package_name">com.pratama.pipah</string>
+    <string name="custom_url_scheme">com.pratama.pipah</string>
+</resources>

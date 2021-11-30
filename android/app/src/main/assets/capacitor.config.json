@@ -1,0 +1,6 @@
+{
+	"appId": "com.pratama.pipah",
+	"appName": "pipah",
+	"webDir": "dist",
+	"bundledWebRuntime": false
+}
